@@ -1,6 +1,6 @@
-%%%% A MODIFIED 88 LINE TOPOLOGY OPTIMIZATION CODE - hiTop - February, 2023 %%%%
+%%%% Human-Informed Topology Optimization - hiTop - February, 2023 %%%%
 %%Authors: Dat Ha (datha@mit.edu), Josephine Carstensen (jvcar@mit.edu)
-%%Carstensen Group, MIT CEE 
+%%Carstensen Group, MIT CEE www.carstensen.mit.edu
 
 %Example Command: hiTop_MBB_1ROI(240,80,0.5,3,3.2,25,500)
 %ROI - contour = 3, rmin2 = 6.4, lambda = 3
@@ -282,22 +282,31 @@ end
 end 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% This Matlab code was written by E. Andreassen, A. Clausen, M. Schevenels,%
-% B. S. Lazarov and O. Sigmund,  Department of Solid  Mechanics,           %
-%  Technical University of Denmark,                                        %
-%  DK-2800 Lyngby, Denmark.                                                %
-% Please sent your comments to: sigmund@fam.dtu.dk                         %
-%                                                                          %
-% The code is intended for educational purposes and theoretical details    %
-% are discussed in the paper                                               %
-% "Efficient topology optimization in MATLAB using 88 lines of code,       %
+% The theoretical details of this MATLAB code is discussed in the paper    %
+% "Human-Infored Topology Optimization: interactive application of feature %
+% size controls", Ha, D. and Carstensen, J.V.,                             %
+% Structural and Multidisciplinary Optimization, 2023                      %
+% DOI 10.1007/s00158-023-03512-0                                           %
+% The MATLAB code is written by Dat Ha and Josephine Carstensen of the     %
+% Carstensen Group, MIT CEE: https://www.carstensen.mit.edu/.              %
+% The code and manual can be found in:                                     %
+% https://github.com/datquocha/CarstensenGroup_Public                      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This MATLAB code was originally based on the 88-line code, written by    %
+% E. Andreassen, A. Clausen, M. Schevenels, B.S. Lazarov and O. Sigmund,   %
+% Department of Solid Mechanics, Technical University of Denmark, DK-2800  %
+% Lyngby, Denmark.                                                         %
+% The 88-line code is intended for educational purposes is discussed in    %                                               
+% "Efficient topology optimization in MATLAB using 88 lines of code",      %
 % E. Andreassen, A. Clausen, M. Schevenels,                                %
 % B. S. Lazarov and O. Sigmund, Struct Multidisc Optim, 2010               %
 % This version is based on earlier 99-line code                            %
 % by Ole Sigmund (2001), Structural and Multidisciplinary Optimization,    %
 % Vol 21, pp. 120--127.                                                    %
 %                                                                          %
-% The code as well as a postscript version of the paper can be             %
+% The 88-line code as well as a postscript version of the paper can be     %
 % downloaded from the web-site: http://www.topopt.dtu.dk                   %
 %                                                                          %
 % Disclaimer:                                                              %
@@ -305,4 +314,3 @@ end
 % free from errors. Furthermore, we shall not be liable in any event       %
 % caused by the use of the program.                                        %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
