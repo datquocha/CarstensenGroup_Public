@@ -1,6 +1,8 @@
 # Human-Informed Topology Optimization 
-This is the public code that was featured in the paper "Human Infored Topology Optimization: Interactive Application of Feature Size Controls" (Ha, D. and Carstensen, J.V., 2022). 
-The program seeks to perform topology optimization of a 3-point bending MBB beam, where the user is able to interact with the design during the optimization process.
+This is the public code that was featured in the paper "Human Infored Topology Optimization: Interactive Application of Feature Size Controls" (Ha, D. and Carstensen, J.V., 2023, Structural and Multidisciplinary Optimization 66:59. DOI 10.1007/s00158-023-03512-0.
+
+The program seeks to perform topology optimization of a 3-point bending MBB beam, where the user is able to interact with the design during the optimization process by specifying one (1) region of interest (ROI) after the first 50 iterations.
+
 The following folder and file are provided and required to run the program:
 1. Folder ``` MMA```
 2. File ``` hiTop_MBB_1ROI_Fin.m```
@@ -35,3 +37,7 @@ Input lambda between domain and ROI
 This input defines the degree of transition that the feature size outside can transition into the ROI. A higher number indicates a gradual transition. Conversely, a lower number indicates a sharper transition, and the user will notice more dramatic changes in the response. For the example case, the recommended value is 3.
 Then, the program resumes, and the new topology with the human input becomes:
 ![image](https://user-images.githubusercontent.com/112650617/218154272-e702fb65-e398-45f1-8c73-f66170545e88.png)
+
+We welcome any questions and comments. Please send them to the email ```datha@mit.edu```.
+
+Disclaimer: The authors reserves all rights but do not guaranty that the code is free from errors. Furthermore, we shall not be liable in any event caused by the use of the program. 
