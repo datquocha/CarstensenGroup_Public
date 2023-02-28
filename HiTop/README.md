@@ -1,5 +1,5 @@
 # Human-Informed Topology Optimization 
-This is the public code that was featured in the paper "Human Infored Topology Optimization: Interactive Application of Feature Size Controls" (Ha, D. and Carstensen, J.V., 2023, Structural and Multidisciplinary Optimization 66:59. DOI 10.1007/s00158-023-03512-0.
+This is the public code that was featured in the paper "Human Infored Topology Optimization: Interactive Application of Feature Size Controls" (Ha, D. and Carstensen, J.V., 2023, Structural and Multidisciplinary Optimization 66:59. DOI 10.1007/s00158-023-03512-0).
 
 The program seeks to perform topology optimization of a 3-point bending MBB beam, where the user is able to interact with the design during the optimization process by specifying one (1) region of interest (ROI) after the first 50 iterations.
 
