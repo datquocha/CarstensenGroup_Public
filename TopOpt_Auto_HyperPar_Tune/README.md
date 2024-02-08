@@ -1,4 +1,3 @@
-README
 # Automatic hyperparameter tuning of topology optimization (TO) algorithms
 
 This is the Demo of the approach presented in the study "Automatic hyperparameter tuning of topology optimization algorithms using surrogate optimization". 
